@@ -15,10 +15,10 @@ public class DataProcessor extends Thread {
 	@Override
 	public void run() {
 		for (int i = start; i < start + 5; i++) {
-			Data d = new Data();
-			d.setNumber(i);
-			d.setSquare(square(i + 2));
-			dataList.add(d);
+			Data d = dataList.get(i);
+			int num=d.getNumber();
+			d.setSquare(square(num));
+			
 		}
 	}
 
