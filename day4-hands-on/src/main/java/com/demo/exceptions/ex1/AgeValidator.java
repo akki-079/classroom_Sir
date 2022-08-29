@@ -12,7 +12,9 @@ public class AgeValidator {
 				return "Welcome to the stage";
 			}
 		} catch (InvalidAgeException e) {
+			System.out.println(e.getMessage());
 			throw e;
 		}
+		
 	}
 }
