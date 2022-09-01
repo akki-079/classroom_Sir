@@ -1,9 +1,13 @@
 package demo_misc;
 
 public class Main {
+	
+	{
+		System.out.println("Hi from block of code");
+	}
 
 	public static void main(String[] args) {
-		
+		Main m= new Main();
 		GenericsApp<Integer> app1=new GenericsApp<>();
 		app1.setData(3, 4);
 		

@@ -9,7 +9,7 @@ public class GenericsApp<T> {
 		this.y=y;
 	}
 	
-	public String getData() {
+	public String displayData() {
 		return x.toString()+y.toString();
 	}
 }

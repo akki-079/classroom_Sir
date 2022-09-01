@@ -1,0 +1,49 @@
+2022-08-30 12:22:15,223 INFO c.d.e.e.Account [main] AN Account Object is created
+2022-08-30 12:22:15,237 INFO c.d.e.e.Account [main] amount 5000.0 deposited successfully
+2022-08-30 12:22:15,238 INFO c.d.e.e.Account [main] amount 25000.0 deposited successfully
+2022-08-30 12:22:15,238 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:22:15,238 INFO c.d.e.e.Account [main] Transaction sucessful
+2022-08-30 12:22:15,238 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:22:15,239 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:22:15,239 ERROR c.d.e.e.Account [main] withdraw is in error condition : {} 
+com.demo.exceptions.ex2.LowBalanceException: Balance is Low
+	at com.demo.exceptions.ex2.Account.withdraw(Account.java:40) ~[classes/:?]
+	at com.demo.exceptions.ex2.Main.main(Main.java:13) ~[classes/:?]
+2022-08-30 12:31:06,287 INFO c.d.e.e.Account [main] AN Account Object is created
+2022-08-30 12:31:06,297 INFO c.d.e.e.Account [main] amount 5000.0 deposited successfully
+2022-08-30 12:31:06,297 INFO c.d.e.e.Account [main] amount 25000.0 deposited successfully
+2022-08-30 12:31:06,298 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:31:06,298 INFO c.d.e.e.Account [main] Transaction sucessful
+2022-08-30 12:31:06,298 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:31:06,298 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:31:06,299 ERROR c.d.e.e.Account [main] withdraw is in error condition : {} 
+com.demo.exceptions.ex2.LowBalanceException: Balance is Low
+	at com.demo.exceptions.ex2.Account.withdraw(Account.java:40) ~[classes/:?]
+	at com.demo.exceptions.ex2.Main.main(Main.java:13) ~[classes/:?]
+2022-08-30 12:31:53,030 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:31:53,035 ERROR c.d.e.e.Account [main] withdraw is in error condition : {} 
+com.demo.exceptions.ex2.LowBalanceException: Balance is Low
+	at com.demo.exceptions.ex2.Account.withdraw(Account.java:40) ~[classes/:?]
+	at com.demo.exceptions.ex2.Main.main(Main.java:13) ~[classes/:?]
+2022-08-30 12:32:22,737 INFO c.d.e.e.Account [main] AN Account Object is created
+2022-08-30 12:32:22,747 INFO c.d.e.e.Account [main] amount 5000.0 deposited successfully
+2022-08-30 12:32:22,747 INFO c.d.e.e.Account [main] amount 25000.0 deposited successfully
+2022-08-30 12:32:22,748 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:32:22,748 INFO c.d.e.e.Account [main] Transaction sucessful
+2022-08-30 12:32:22,748 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:32:22,749 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:32:22,749 ERROR c.d.e.e.Account [main] withdraw is in error condition : {} 
+com.demo.exceptions.ex2.LowBalanceException: Balance is Low
+	at com.demo.exceptions.ex2.Account.withdraw(Account.java:40) ~[classes/:?]
+	at com.demo.exceptions.ex2.Main.main(Main.java:13) ~[classes/:?]
+2022-08-30 12:32:50,677 INFO c.d.e.e.Account [main] AN Account Object is created
+2022-08-30 12:32:50,687 INFO c.d.e.e.Account [main] amount 5000.0 deposited successfully
+2022-08-30 12:32:50,687 INFO c.d.e.e.Account [main] amount 25000.0 deposited successfully
+2022-08-30 12:32:50,687 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:32:50,687 INFO c.d.e.e.Account [main] Transaction sucessful
+2022-08-30 12:32:50,687 INFO c.d.e.e.Account [main] withdraw process started...
+2022-08-30 12:32:50,687 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:32:50,687 ERROR c.d.e.e.Account [main] withdraw is in error condition : {} 
+com.demo.exceptions.ex2.LowBalanceException: Balance is Low
+	at com.demo.exceptions.ex2.Account.withdraw(Account.java:40) ~[classes/:?]
+	at com.demo.exceptions.ex2.Main.main(Main.java:13) ~[classes/:?]
