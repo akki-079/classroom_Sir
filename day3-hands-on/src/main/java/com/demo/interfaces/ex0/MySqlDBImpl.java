@@ -3,6 +3,7 @@ package com.demo.interfaces.ex0;
 public class MySqlDBImpl {
 
 	
+	
 	public String getMySQLConnectionInfo() {
 		
 		return "MySQL DB Conneccted..";

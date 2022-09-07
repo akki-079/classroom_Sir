@@ -12,19 +12,7 @@ public class ListDemo {
 	public static void main(String[] args) {
 		List<String> namesList = new ArrayList<>();
 
-		namesList.add("john");
-		// namesList.add(1002);
-		namesList.add("peter");
-		namesList.add("harry");
-		namesList.add("srinivas");
-		namesList.add(0, "peterson");
-		namesList.remove(2);
-		System.out.println(namesList);
-		System.out.println(namesList.contains("peter"));
-		System.out.println(namesList.size());
-	String name1=	namesList.get(3);
-		// namesList.clear();
-		System.out.println(namesList);
+		getListOfNames(namesList);
 
 		// old approach
 
@@ -58,6 +46,22 @@ public class ListDemo {
 
 		System.out.println(namesList);
 
+	}
+
+	private static void getListOfNames(List<String> namesList) {
+		namesList.add("john");
+		// namesList.add(1002);
+		namesList.add("peter");
+		namesList.add("harry");
+		namesList.add("srinivas");
+		namesList.add(0, "peterson");
+		namesList.remove(2);
+		System.out.println(namesList);
+		System.out.println(namesList.contains("peter"));
+		System.out.println(namesList.size());
+	String name1=	namesList.get(3);
+		// namesList.clear();
+		System.out.println(namesList);
 	}
 
 }
