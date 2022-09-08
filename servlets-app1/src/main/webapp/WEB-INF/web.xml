@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>servlet-app</display-name>
+
+	<servlet>
+		<servlet-name>demo</servlet-name>
+		<servlet-class>com.demo.web.DemoServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>demo2</servlet-name>
+		<servlet-class>com.demo.web.MyHttpServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>adder</servlet-name>
+		<servlet-class>com.demo.web.AdderServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>demo</servlet-name>
+		<url-pattern>/app</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>demo2</servlet-name>
+		<url-pattern>/http</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>adder</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+</web-app>

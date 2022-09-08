@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.demp.app.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.338 s - in com.demp.app.CalculatorTest

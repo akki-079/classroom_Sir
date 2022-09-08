@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.demp.app.ParametrizedDemoTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.509 s <<< FAILURE! - in com.demp.app.ParametrizedDemoTest
+com.demp.app.ParametrizedDemoTest.testAddForCSVData(int, int, int)[4]  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <5>
+	at com.demp.app.ParametrizedDemoTest.testAddForCSVData(ParametrizedDemoTest.java:34)
+
