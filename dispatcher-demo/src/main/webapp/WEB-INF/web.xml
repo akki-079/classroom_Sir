@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>dispatcher-demo</display-name>
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>org.mariadb.jdbc.Driver</param-value>
+	</context-param>
+	<servlet>
+		<description></description>
+		<display-name>controller</display-name>
+		<servlet-name>controller</servlet-name>
+		<servlet-class>com.demo.web.Controller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controller</servlet-name>
+		<url-pattern>/controller</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>john</display-name>
+		<servlet-name>john</servlet-name>
+		<servlet-class>com.demo.web.JohnServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>john</servlet-name>
+		<url-pattern>/john</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>peter</display-name>
+		<servlet-name>peter</servlet-name>
+		<servlet-class>com.demo.web.PeterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>peter</servlet-name>
+		<url-pattern>/peter</url-pattern>
+	</servlet-mapping>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.html</location>
+	</error-page>
+	<servlet>
+		<description></description>
+		<display-name>greet</display-name>
+		<servlet-name>greet</servlet-name>
+		<servlet-class>com.demo.web.GreeterMessage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>greet</servlet-name>
+		<url-pattern>/greet</url-pattern>
+	</servlet-mapping>
+</web-app>
