@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="msg" class="com.demo.spring.Message">
+		<property name="header" value="Tea Break" />
+		<property name="body" value="Tea break is delayed today" />
+	</bean>
+	
+	<bean id="msg2" class="com.demo.spring.Message">
+		<constructor-arg value="LLP" />
+		<constructor-arg value="We have LLP at 5:00pm today" />
+	</bean>
+
+	<bean id="myMail" class="com.demo.spring.Mail">
+		<property name="fromAddress" value="john@gmail.com" />
+		<property name="toAddress" value="peter@gmail.com" />
+		<property name="message" ref="msg2" />
+	</bean>
+
+</beans>
