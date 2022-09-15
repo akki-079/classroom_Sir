@@ -1,16 +1,18 @@
 package com.demo.factory.ex1;
 
+import java.util.Optional;
+
 public class CycleFactory {
 
-	public static Cycle createCycle(String input) {
+	public static Optional<Cycle> createCycle(String input) {
 		if (input.equals("uni")) {
-			return new UniCycle();
+			return Optional.of(new UniCycle());
 		} else if (input.equals("bi")) {
-			return new BiCycle();
+			return Optional.of(new BiCycle());
 		} else if (input.equals("tri")) {
-			return new TriCycle();
+			return Optional.of(new TriCycle());
 		} else {
-			throw new RuntimeException("Cycle not supported");
+			return Optional.empty();
 		}
 	}
 }
