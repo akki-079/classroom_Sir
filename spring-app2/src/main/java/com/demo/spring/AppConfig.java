@@ -7,4 +7,5 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = {"com.demo.spring"})
 public class AppConfig {
 
+	
 }

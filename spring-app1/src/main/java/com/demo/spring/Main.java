@@ -11,5 +11,7 @@ public class Main {
 		Mail mail=ctx.getBean(Mail.class,"myMail");
 		
 		System.out.println(mail.getMessage().getBody());
+		
+		//Spring Core module
 	}
 }
