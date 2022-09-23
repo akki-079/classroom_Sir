@@ -55,4 +55,14 @@
     <filter-name>CountryFilter</filter-name>
     <servlet-name>demo</servlet-name>
   </filter-mapping>
+  <servlet>
+    <description></description>
+    <display-name>print</display-name>
+    <servlet-name>print</servlet-name>
+    <servlet-class>com.demo.web.PrintHello</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>print</servlet-name>
+    <url-pattern>/print</url-pattern>
+  </servlet-mapping>
 </web-app>
