@@ -42,5 +42,7 @@
 
 	<modules>
 		<module>emp-microservice</module>
+		<module>dept-microservice</module>
+		<module>hr-service</module>
 	</modules>
 </project>

@@ -1,34 +1,23 @@
-package com.demo.spring.entity;
+package com.demo.spring;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+public class EmpDTO {
 
-@Entity
-@Table(name = "MYEMP")
-public class Employee {
-	@Id
-	@Column(name="EMPNO")
 	private Integer employeeId;
 
-	@Column(name = "NAME")
 	private String name;
 
-	@Column(name = "ADDRESS")
 	private String city;
 
-	@Column(name = "SALARY")
 	private Double salary;
 
-	@Column(name = "DNO")
+	
 	private Integer deptNo;
 
-	public Employee() {
+	public EmpDTO() {
 
 	}
 
-	public Employee(Integer employeeId, String name, String city, Double salary, Integer deptNo) {
+	public EmpDTO(Integer employeeId, String name, String city, Double salary, Integer deptNo) {
 		this.employeeId = employeeId;
 		this.name = name;
 		this.city = city;
