@@ -1,0 +1,4 @@
+com\demo\spring\WebInitializer.class
+com\demo\spring\controllers\MyController.class
+com\demo\spring\controllers\LoginController.class
+com\demo\spring\WebConfig.class

@@ -11,7 +11,7 @@
 	<form action="controller" method="get">
 		<span>Emp ID</span><input type="text" name="empId"><br />
 		<input type="hidden" name="operation" value="find">
-		<input type="submit" value="Find">
+		<input type="submit" value="Find" name="action">
 	</form>
 	
 	<c:set var="emp" value="${e}"/>

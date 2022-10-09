@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 45987a59c53394b74bc91bb9c1a6a67fef44b04c
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.3</version>
+<<<<<<< HEAD
 		<relativePath/> <!-- lookup parent from repository -->
+=======
+		<relativePath /> <!-- lookup parent from repository -->
+>>>>>>> 45987a59c53394b74bc91bb9c1a6a67fef44b04c
 	</parent>
 	<groupId>com.demo</groupId>
 	<artifactId>emp-data-service</artifactId>
@@ -28,6 +37,13 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<dependency>
+>>>>>>> 45987a59c53394b74bc91bb9c1a6a67fef44b04c
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
@@ -36,6 +52,13 @@
 			<artifactId>mariadb-java-client</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+		</dependency>
+>>>>>>> 45987a59c53394b74bc91bb9c1a6a67fef44b04c
 	</dependencies>
 
 	<build>
